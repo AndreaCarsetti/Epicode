@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Pinterest</title>
+    <style>
+        .card{
+            position: relative;
+            width: 440px;
+            height: 580px;
+            border: hidden;
+            background-image:url(/foto.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            border-radius: 30px;
+        }
+        .Icona img{
+            position: absolute;
+            width: 80px;
+            left: 50px;
+            top: 450px;
+        }
+        .card:hover{
+            box-shadow: 9px 7px 50px 10px rgb(9, 1, 1);
+            transition-duration: 1s;
+            }
+        .Icona:hover img{
+            transform: scale(1.2);
+            transition-duration: 1s;
+        }
+        
+        
+
+    </style>
+</head>
+<body>
+    <div class="card">
+    </div>
+
+    <div class="Icona">
+        <img src="download.png" alt="download">
+    </div>
+
+</body>
+</html>
