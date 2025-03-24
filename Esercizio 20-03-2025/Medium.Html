@@ -6,31 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Medium</title>
     <style>
-        .Menu{
+        .Menu {
             display: flex;
             justify-content: space-around;
             margin-bottom: 30px;
             padding-bottom: 20px;
             align-items: baseline;
         }
-        .Menu #logo{
+
+        .Menu #logo {
             width: 150px;
             height: 25px;
             margin-top: 50px;
             margin-left: 100px;
         }
-        .Menu #iconacerca{
+
+        .Menu #iconacerca {
             width: 20px;
             height: 20px;
             margin-top: 50px;
             margin-left: 800px;
         }
-        .Menu #iconabell{
+
+        .Menu #iconabell {
             width: 20px;
             height: 20px;
             margin-top: 50px;
         }
-        .Menu #buttonfacebook{
+
+        .Menu #buttonfacebook {
             width: 200px;
             height: 30px;
             background-color: white;
@@ -38,37 +42,67 @@
             margin-top: 50px;
             margin-right: 100px;
         }
-        .Titoli{
+
+        .Titoli {
             display: flex;
             padding-top: 20px;
             margin-left: 120px;
         }
-        .Titoli h3{
+
+        .Titoli h3 {
             margin-right: -70px;
             margin-left: 100px;
+            text-decoration: underline;
         }
-        .Blocchi{
+
+        .Blocchi {
             display: flex;
             justify-content: space-around;
         }
-        .Bloccosinistra{
-            width: 300px;
+
+        .Bloccosinistra {
+            width: 700px;
             display: flex;
             flex-direction: column;
+            justify-content: space-around;
         }
-        .Bloccodestra{
+
+        .Blocco1 {
+            display: flex;
+            align-items: center;
+        }
+
+        .Blocco2 {
+            display: flex;
+            align-items: center;
+        }
+
+        .Blocco3 {
+            display: flex;
+            align-items: center;
+        }
+
+        .Bloccosinistra img {
+            width: 50%;
+            height: 10%;
+        }
+
+        .Bloccodestra {
             width: 300px;
             display: flex;
             flex-direction: column;
             align-items: center;
         }
-        .Bloccodestra #logodestra{
+
+        .Bloccodestra #logodestra {
             width: 150px;
         }
-        .Bloccodestra img{
+
+        .Bloccodestra img {
             width: 30px;
         }
-        .Bloccodestra button{
+
+        .Bloccodestra button {
             text-align
         }
     </style>
@@ -88,31 +122,50 @@
     </div>
     <hr>
     <div class="Blocchi">
-    <div class="Bloccosinistra">
-        <h5>lorem ipsum lorem ipsum</h5>
-        <h2>Lorem ipsum dolor sit arum.</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Mollitia ipsa ad est perferendis in quam adipisci eligendi
-            repudiandae tempore qui molestias eveniet voluptatem laudantium
-            ratione dolorem soluta harum, nobis at!</p>
-     
-        <h5>lorem ipsum lorem ipsum</h5>
-        <h2>Lorem ipsum dolor sit arum.</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Mollitia ipsa ad est perferendis in quam adipisci eligendi
-            repudiandae tempore qui molestias eveniet voluptatem laudantium
-            ratione dolorem soluta harum, nobis at!</p>
-
-        <h5>lorem ipsum lorem ipsum</h5>
-        <h2>Lorem ipsum dolor sit arum.</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Mollitia ipsa ad est perferendis in quam adipisci eligendi
-            repudiandae tempore qui molestias eveniet voluptatem laudantium
-            ratione dolorem soluta harum, nobis at!</p>
-    </div>
-    <div class="Bloccodestra">
-        <img src="logo.png" alt="logo" id="logodestra">
-        <p>Lorem ipsum dolor sit amet consectetur, adi</p>
-        <button><img src="Facebook.png" alt="facebook">Connect to Facebook</button>
-    </div>
+        <div class="Bloccosinistra">
+            <div class="Blocco1">
+                <div>
+                    <h5>lorem ipsum lorem ipsum</h5>
+                    <h2>Lorem ipsum dolor sit arum.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Mollitia ipsa ad est perferendis in quam adipisci eligendi
+                        repudiandae tempore qui molestias eveniet voluptatem laudantium
+                        ratione dolorem soluta harum, nobis at!</p>
+                </div>
+                <div>
+                    <img src="logo.png" alt="logo">
+                </div>
+            </div>
+            <div class="Blocco2">
+                <div>
+                    <h5>lorem ipsum lorem ipsum</h5>
+                    <h2>Lorem ipsum dolor sit arum.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Mollitia ipsa ad est perferendis in quam adipisci eligendi
+                        repudiandae tempore qui molestias eveniet voluptatem laudantium
+                        ratione dolorem soluta harum, nobis at!</p>
+                </div>
+                <div>
+                    <img src="logo.png" alt="logo">
+                </div>
+            </div>
+            <div class="Blocco3">
+                <div>
+                    <h5>lorem ipsum lorem ipsum</h5>
+                    <h2>Lorem ipsum dolor sit arum.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Mollitia ipsa ad est perferendis in quam adipisci eligendi
+                        repudiandae tempore qui molestias eveniet voluptatem laudantium
+                        ratione dolorem soluta harum, nobis at!</p>
+                </div>
+                <div>
+                    <img src="logo.png" alt="logo">
+                </div>
+            </div>
+        </div>
+        <div class="Bloccodestra">
+            <img src="logo.png" alt="logo" id="logodestra">
+            <p>Lorem ipsum dolor sit amet consectetur, adi</p>
+            <button><img src="Facebook.png" alt="facebook">Connect to Facebook</button>
+        </div>
     </div>
