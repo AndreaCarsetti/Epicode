@@ -1,0 +1,3 @@
+- Algoritmo: un algoritmo è una sequenza di istruzioni o elenco di procedure, funzionali all'obiettivo finale
+- Variabile: una variabile è "una scatola", "un contenitore" con un proprio nome, dove al suo interno l'utente attribuisce un determinato valore
+-Undefined / null: il valore Undefined in una variabile, è l'assenza di un valore all'interno della stessa, null è un valore all'interno di una varibile utilizzato per eliminarne il valore precedente.
