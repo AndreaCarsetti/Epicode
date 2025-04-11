@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esercizio</title>
+</head>
+
+<body>
+    <div class="Nomenegozio">
+        <h1>"Dàr bottegaro dè smartèphòne mejo ar mònno!"</h1>
+    </div>
+    <div class="Tabella">
+        <table border="5px">
+            <tr>
+                <td>
+                    <img src="./Apple_logo_black.svg.png" width="70px">
+                </td>
+                <td>
+                    <a href="https://www.amazon.it/">IPHONNE</a>
+                </td>
+                <td>Sò bòni ma còsteno troppo</td>
+                <td>Prezzo: <strong class="Prezzo1">€1200</strong>, spedizione à'paghi perchè sei ricco</td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="./360_197_1.avif" width="150px">
+                </td>
+                <td>
+                    <a href="https://www.amazon.it/">SAMMESUNGHE</a>
+                </td>
+                <td>Nùn me piàcieno</td>
+                <td>Prezzo: <strong class="Prezzo2">€1000</strong>, spedizione cè costa troppo, viettelo a prende</td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="./logo-huawei-oggi.png" width="180px">
+                </td>
+                <td>
+                    <a href="https://www.amazon.it/">WUAWUEY</a>
+                </td>
+                <td>Già dàr nome sò complicati</td>
+                <td>Prezzo: <strong class="Prezzo3">€500</strong>, spedizione appparte</td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="./logo-xiaomi-oggi.png" width="150px">
+                </td>
+                <td>
+                    <a href="https://www.amazon.it/">XIAOMIAO</a>
+                </td>
+                <td>Se sei allergico ar pelo der gatto, nùn lo comprà</td>
+                <td>Prezzo: <strong class="Prezzo4">€600</strong>, croccantini inclusi</td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="./logo-oppo-oggi.jpg" width="150px">
+                </td>
+                <td>
+                    <a href="https://www.amazon.it/">OPPIO</a>
+                </td>
+                <td>Occhio zìì che stò modello fa male a'salute</td>
+                <td>Prezzo: <strong class="Prezzo5">€700</strong>, spedizione gratis "allucinante"</td>
+            </tr>
+        </table>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div>
+        <textarea placeholder="Scrivice qui"></textarea>
+    </div>
+    <br>
+    <br>
+    <footer>
+        <div><strong>Dàr bottegaro dè smartèphòne mejo ar mònno!</strong></div> <br>
+        <div class="Indirizzo"><strong>Indirizzo:</strong> Viècce a trovà dò tè pare, noi stàmo ovunque!</div> <br>
+        <div><strong>Tel:</strong> Nun c'avemo er telefono anche se li vendemo!</div>
+    </footer>
+    <br>
+    <br>
+    <br>
+    <button onclick="cambioh1()">Cambia H1</button>
+    <button onclick="cambiacolore()">Cambia colore sfondo</button>
+    <button onclick="cambiaindirizzo()">Cambia indirizzo</button>
+    <button onclick="cambiacoloreprezzo()">Cambia colore prezzo</button>
+    
+    <script>
+        function cambioh1() {
+            document.querySelector('h1').innerText = 'Viecce a trovà!'
+        }
+
+        function cambiacolore() {
+            document.querySelector('body').style.backgroundColor = 'yellow'
+        }
+
+        function cambiaindirizzo() {
+            document.querySelector('.Indirizzo').innerText = 'Indirizzo: Via dà Carbonara bella gnorante'
+            
+        }
+
+        function cambiacoloreprezzo() {
+            document.querySelector('.Prezzo1').style.color = 'red'
+            document.querySelector('.Prezzo2').style.color = 'green'
+            document.querySelector('.Prezzo3').style.color = 'blue'
+            document.querySelector('.Prezzo4').style.color = 'purple'
+            document.querySelector('.Prezzo5').style.color = 'brown'
+        
+        }
+    </script>
+</body>
+
+</html>
