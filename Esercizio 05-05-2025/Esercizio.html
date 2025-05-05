@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Esercizio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Andrea Carsetti</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#servizi">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#chisiamo">Chi Sono</a></li>
+          <li class="nav-item"><a class="nav-link" href="#galleria">Galleria</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contatti">Contatti</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="bg-primary text-white text-center py-5">
+    <div class="container">
+      <h1 class="display-4">Benvenuto nel mio sito</h1>
+      <p class="lead">Scopri la mia storia</p>
+    </div>
+  </header>
+
+  <!-- Sezione Servizi -->
+  <section id="servizi" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Esperienze</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="./img1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Operatore Helpdesk 1° Livello</h5>
+              <p class="card-text">Presa in carico delle problematiche, e smistamento ai vari reparti</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="./img2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Tecnico Helpdesk 2° Livello</h5>
+              <p class="card-text">Risoluzione delle problematiche da remoto e onsite</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="./img3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Systems Engineer</h5>
+              <p class="card-text">Gestione dell'infrastruttura di rete e Server Cloud</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sezione Chi Siamo -->
+  <section id="chisiamo" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Chi Sono</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <p>Ciao a tutti, sono Andrea Carsetti ed ho 32 anni, sono un appassionato di informatica Hardware e Software, attualmente lavoro come Systems Engineer in una azienda informatica.
+            Amo il mio lavoro! Voglio crescere professionalmente sempre di più, e per questo sto studiando programmazione Web con Epicode, che ringrazio!
+          </p>
+        </div>
+        <div class="col-md-6">
+          <img src="./img4.png" class="img-fluid rounded" alt="Chi siamo">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sezione Galleria -->
+  <section id="galleria" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Galleria</h2>
+      <div class="row g-3">
+        <div class="col-sm-6 col-md-4">
+          <img src="https://via.placeholder.com/400x300" class="img-fluid rounded" alt="...">
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <img src="https://via.placeholder.com/400x300" class="img-fluid rounded" alt="...">
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <img src="https://via.placeholder.com/400x300" class="img-fluid rounded" alt="...">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sezione Contatti -->
+  <section id="contatti" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Contattami</h2>
+      <form>
+        <div class="row mb-3">
+          <div class="col-md-6">
+            <label for="nome" class="form-label">Nome</label>
+            <input type="text" class="form-control" id="nome" required>
+          </div>
+          <div class="col-md-6">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" required>
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="messaggio" class="form-label">Messaggio</label>
+          <textarea class="form-control" id="messaggio" rows="5" required></textarea>
+        </div>
+        <div class="text-center">
+          <button type="submit" class="btn btn-primary">Invia</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-4">
+    <div class="container">
+      <p class="mb-0">&copy; -Andrea Carsetti- Tutti i diritti riservati.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
